@@ -47,7 +47,7 @@ const displaySearchReult = products => {
                 <img src="${product.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">${product.product_name}</h5>
-                  <h3 class="card-text">${product.charge.current_charge}</h3>
+                  <h4 class="card-text text-danger">Price: ${product.charge.current_charge} Tk</h4>
                 </div>
             </div>`;
         searchResult.appendChild(div);
